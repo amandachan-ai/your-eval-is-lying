@@ -4,9 +4,8 @@
 measuring is a language model.**
 
 Most writing about LLM evaluation is about what to measure. This is about
-whether your instrument works — because in a year of doing this professionally,
-almost every serious mistake I found was not a wrong conclusion drawn from good
-numbers. It was a broken instrument producing numbers that looked fine.
+whether your instrument works — because almost every serious mistake I have seen in
+LLM evaluation was not a wrong conclusion drawn from good numbers. It was a broken instrument producing numbers that looked fine.
 
 That is the uncomfortable part. A wrong conclusion announces itself eventually;
 someone disagrees, someone reruns it. **A broken instrument produces a report
@@ -159,8 +158,8 @@ criteria and score the fraction met, so the metric has somewhere to move.
 
 Every demonstration here is **synthetic and self-contained** — a few dozen lines
 of standard-library Python that construct the failure and show you its shape.
-Nothing in this repository reproduces, describes, or depends on any specific
-company's systems, data, metrics, or internal tooling.
+Nothing in this repository contains or depends on any employer's data, code,
+metrics, or internal tooling.
 
 That is not only a precaution. It is what makes the claims checkable: you can
 run each one, change the parameters, and watch the failure appear and disappear.
